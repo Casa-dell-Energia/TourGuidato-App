@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/app/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/app/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/app/intermediates/merged_res/debug/drawable-v21_launch_background.xml.flat",
+        "source": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/android/app/src/main/res/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/app/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/app/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/app/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]

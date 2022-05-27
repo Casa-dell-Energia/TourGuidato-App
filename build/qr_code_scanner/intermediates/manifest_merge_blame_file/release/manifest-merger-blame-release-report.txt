@@ -1,0 +1,15 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="net.touchcapture.qr.flutterqr" >
+5
+6    <uses-sdk
+6-->/media/federico/Data/Android/flutter/.pub-cache/git/qr_code_scanner-5c8a34b848e4e1bad6b4c987d89634b90fd3ab9e/android/src/main/AndroidManifest.xml:3:3-71
+7        android:minSdkVersion="20"
+7-->/media/federico/Data/Android/flutter/.pub-cache/git/qr_code_scanner-5c8a34b848e4e1bad6b4c987d89634b90fd3ab9e/android/src/main/AndroidManifest.xml:3:3-71
+8        android:targetSdkVersion="31"
+8-->/media/federico/Data/Android/flutter/.pub-cache/git/qr_code_scanner-5c8a34b848e4e1bad6b4c987d89634b90fd3ab9e/android/src/main/AndroidManifest.xml:3:3-71
+9        tools:overrideLibrary="com.google.zxing.client.android" />
+9-->/media/federico/Data/Android/flutter/.pub-cache/git/qr_code_scanner-5c8a34b848e4e1bad6b4c987d89634b90fd3ab9e/android/src/main/AndroidManifest.xml:3:13-68
+10
+11</manifest>

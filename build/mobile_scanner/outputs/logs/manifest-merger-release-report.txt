@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml:1:1-5:12
+	package
+		ADDED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml:2:3-43
+		INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml
+		INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml:4:5-65
+	android:name
+		ADDED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml:4:22-62
+uses-sdk
+INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml
+INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml
+INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml
+INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml
+		ADDED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml
+		INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml
+		ADDED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml
+		INJECTED from /media/federico/Data/Android/flutter/.pub-cache/hosted/pub.dartlang.org/mobile_scanner-1.1.1/android/src/main/AndroidManifest.xml

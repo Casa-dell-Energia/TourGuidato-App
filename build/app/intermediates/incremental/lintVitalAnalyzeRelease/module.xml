@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.1.2"
+    buildFolder="/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/app"
+    bootClassPath="/media/federico/Data/Android/platforms/android-31/android.jar:/media/federico/Data/Android/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

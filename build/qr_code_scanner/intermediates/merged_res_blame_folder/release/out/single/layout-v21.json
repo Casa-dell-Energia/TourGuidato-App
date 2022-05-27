@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/qr_code_scanner/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/federico/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/qr_code_scanner/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/federico/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/qr_code_scanner/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/federico/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/qr_code_scanner/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/home/federico/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/res/layout-v21/notification_action.xml"
+    }
+]

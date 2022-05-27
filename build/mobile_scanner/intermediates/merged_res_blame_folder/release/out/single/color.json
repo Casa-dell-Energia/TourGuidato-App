@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/mobile_scanner/intermediates/merged_res/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/federico/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/mobile_scanner/intermediates/merged_res/release/color/common_google_signin_btn_tint.xml",
+        "source": "/home/federico/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/mobile_scanner/intermediates/merged_res/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/federico/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+    }
+]

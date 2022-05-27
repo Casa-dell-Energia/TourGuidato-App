@@ -1,0 +1,254 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tour_guidato"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/media/federico/Data/flutter_apps/tour_guidato/tour_guidato/android/app/src/debug/AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+16-->[:mobile_scanner] /media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-65
+16-->[:mobile_scanner] /media/federico/Data/flutter_apps/tour_guidato/tour_guidato/build/mobile_scanner/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-62
+17    <uses-feature
+17-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
+18        android:name="android.hardware.camera"
+18-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
+19        android:required="false" />
+19-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
+20    <uses-feature
+20-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+21        android:name="android.hardware.camera.front"
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+22        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+22-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+23    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+25        android:name="android.hardware.camera.autofocus"
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+26        android:required="false" />
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+28        android:name="android.hardware.camera.flash"
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+31        android:name="android.hardware.screen.landscape"
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+34        android:name="android.hardware.wifi"
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+35        android:required="false" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+36    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/federico/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+37-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/federico/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+38
+39    <application
+40        android:name="android.app.Application"
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.7.0] /home/federico/.gradle/caches/transforms-3/5e083c06c9925c2309f02468fc66e376/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+42        android:debuggable="true"
+43        android:icon="@mipmap/ic_launcher"
+44        android:label="tour_guidato" >
+45        <activity
+46            android:name="com.example.tour_guidato.MainActivity"
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+48            android:exported="true"
+49            android:hardwareAccelerated="true"
+50            android:launchMode="singleTop"
+51            android:theme="@style/LaunchTheme"
+52            android:windowSoftInputMode="adjustResize" >
+53
+54            <!--
+55                 Specifies an Android theme to apply to this Activity as soon as
+56                 the Android process has started. This theme is visible to the user
+57                 while the Flutter UI initializes. After that, this theme continues
+58                 to determine the Window background behind the Flutter UI.
+59            -->
+60            <meta-data
+61                android:name="io.flutter.embedding.android.NormalTheme"
+62                android:resource="@style/NormalTheme" />
+63
+64            <intent-filter>
+65                <action android:name="android.intent.action.MAIN" />
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+68            </intent-filter>
+69        </activity>
+70        <!--
+71             Don't delete the meta-data below.
+72             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+73        -->
+74        <meta-data
+75            android:name="flutterEmbedding"
+76            android:value="2" />
+77
+78        <uses-library
+78-->[androidx.window:window:1.0.0-beta04] /home/federico/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+79            android:name="androidx.window.extensions"
+79-->[androidx.window:window:1.0.0-beta04] /home/federico/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+80            android:required="false" />
+80-->[androidx.window:window:1.0.0-beta04] /home/federico/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+81        <uses-library
+81-->[androidx.window:window:1.0.0-beta04] /home/federico/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+82            android:name="androidx.window.sidecar"
+82-->[androidx.window:window:1.0.0-beta04] /home/federico/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0-beta04] /home/federico/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+84
+85        <activity
+85-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+86            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+86-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+87            android:clearTaskOnLaunch="true"
+87-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+88            android:screenOrientation="sensorLandscape"
+88-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+89            android:stateNotNeeded="true"
+89-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+90            android:theme="@style/zxing_CaptureTheme"
+90-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+91            android:windowSoftInputMode="stateAlwaysHidden" />
+91-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/federico/.gradle/caches/transforms-3/77be51fb7627331aa2f8ec0f3aaea8ed/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+92
+93        <service
+93-->[androidx.camera:camera-camera2:1.2.0-alpha01] /home/federico/.gradle/caches/transforms-3/66da1f9c5e62fdc10526a4cd1618c777/transformed/jetified-camera-camera2-1.2.0-alpha01/AndroidManifest.xml:26:9-35:19
+94            android:name="androidx.camera.core.impl.MetadataHolderService"
+94-->[androidx.camera:camera-camera2:1.2.0-alpha01] /home/federico/.gradle/caches/transforms-3/66da1f9c5e62fdc10526a4cd1618c777/transformed/jetified-camera-camera2-1.2.0-alpha01/AndroidManifest.xml:27:13-75
+95            android:enabled="false"
+95-->[androidx.camera:camera-camera2:1.2.0-alpha01] /home/federico/.gradle/caches/transforms-3/66da1f9c5e62fdc10526a4cd1618c777/transformed/jetified-camera-camera2-1.2.0-alpha01/AndroidManifest.xml:28:13-36
+96            android:exported="false" >
+96-->[androidx.camera:camera-camera2:1.2.0-alpha01] /home/federico/.gradle/caches/transforms-3/66da1f9c5e62fdc10526a4cd1618c777/transformed/jetified-camera-camera2-1.2.0-alpha01/AndroidManifest.xml:29:13-37
+97            <meta-data
+97-->[androidx.camera:camera-camera2:1.2.0-alpha01] /home/federico/.gradle/caches/transforms-3/66da1f9c5e62fdc10526a4cd1618c777/transformed/jetified-camera-camera2-1.2.0-alpha01/AndroidManifest.xml:32:13-34:89
+98                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+98-->[androidx.camera:camera-camera2:1.2.0-alpha01] /home/federico/.gradle/caches/transforms-3/66da1f9c5e62fdc10526a4cd1618c777/transformed/jetified-camera-camera2-1.2.0-alpha01/AndroidManifest.xml:33:17-103
+99                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+99-->[androidx.camera:camera-camera2:1.2.0-alpha01] /home/federico/.gradle/caches/transforms-3/66da1f9c5e62fdc10526a4cd1618c777/transformed/jetified-camera-camera2-1.2.0-alpha01/AndroidManifest.xml:34:17-86
+100        </service>
+101        <service
+101-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /home/federico/.gradle/caches/transforms-3/5c6e7baf6fb2b3692d55a2dd3d53beb7/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:9:9-15:19
+102            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+102-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /home/federico/.gradle/caches/transforms-3/5c6e7baf6fb2b3692d55a2dd3d53beb7/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:10:13-91
+103            android:directBootAware="true"
+103-->[com.google.mlkit:common:18.0.0] /home/federico/.gradle/caches/transforms-3/a8d3f9dd24ace6c94bfc985ffc73f968/transformed/jetified-common-18.0.0/AndroidManifest.xml:17:13-43
+104            android:exported="false" >
+104-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /home/federico/.gradle/caches/transforms-3/5c6e7baf6fb2b3692d55a2dd3d53beb7/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:11:13-37
+105            <meta-data
+105-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /home/federico/.gradle/caches/transforms-3/5c6e7baf6fb2b3692d55a2dd3d53beb7/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:12:13-14:85
+106                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+106-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /home/federico/.gradle/caches/transforms-3/5c6e7baf6fb2b3692d55a2dd3d53beb7/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:13:17-120
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /home/federico/.gradle/caches/transforms-3/5c6e7baf6fb2b3692d55a2dd3d53beb7/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:14:17-82
+108            <meta-data
+108-->[com.google.mlkit:vision-common:17.0.0] /home/federico/.gradle/caches/transforms-3/6121614ac855993e2a9fb21868b51e27/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:12:13-14:85
+109                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+109-->[com.google.mlkit:vision-common:17.0.0] /home/federico/.gradle/caches/transforms-3/6121614ac855993e2a9fb21868b51e27/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:13:17-124
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.mlkit:vision-common:17.0.0] /home/federico/.gradle/caches/transforms-3/6121614ac855993e2a9fb21868b51e27/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:14:17-82
+111            <meta-data
+111-->[com.google.mlkit:common:18.0.0] /home/federico/.gradle/caches/transforms-3/a8d3f9dd24ace6c94bfc985ffc73f968/transformed/jetified-common-18.0.0/AndroidManifest.xml:20:13-22:85
+112                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+112-->[com.google.mlkit:common:18.0.0] /home/federico/.gradle/caches/transforms-3/a8d3f9dd24ace6c94bfc985ffc73f968/transformed/jetified-common-18.0.0/AndroidManifest.xml:21:17-120
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.mlkit:common:18.0.0] /home/federico/.gradle/caches/transforms-3/a8d3f9dd24ace6c94bfc985ffc73f968/transformed/jetified-common-18.0.0/AndroidManifest.xml:22:17-82
+114        </service>
+115
+116        <provider
+116-->[com.google.mlkit:common:18.0.0] /home/federico/.gradle/caches/transforms-3/a8d3f9dd24ace6c94bfc985ffc73f968/transformed/jetified-common-18.0.0/AndroidManifest.xml:9:9-13:38
+117            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+117-->[com.google.mlkit:common:18.0.0] /home/federico/.gradle/caches/transforms-3/a8d3f9dd24ace6c94bfc985ffc73f968/transformed/jetified-common-18.0.0/AndroidManifest.xml:10:13-78
+118            android:authorities="com.example.tour_guidato.mlkitinitprovider"
+118-->[com.google.mlkit:common:18.0.0] /home/federico/.gradle/caches/transforms-3/a8d3f9dd24ace6c94bfc985ffc73f968/transformed/jetified-common-18.0.0/AndroidManifest.xml:11:13-69
+119            android:exported="false"
+119-->[com.google.mlkit:common:18.0.0] /home/federico/.gradle/caches/transforms-3/a8d3f9dd24ace6c94bfc985ffc73f968/transformed/jetified-common-18.0.0/AndroidManifest.xml:12:13-37
+120            android:initOrder="99" />
+120-->[com.google.mlkit:common:18.0.0] /home/federico/.gradle/caches/transforms-3/a8d3f9dd24ace6c94bfc985ffc73f968/transformed/jetified-common-18.0.0/AndroidManifest.xml:13:13-35
+121
+122        <activity
+122-->[com.google.android.gms:play-services-base:18.0.1] /home/federico/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+123-->[com.google.android.gms:play-services-base:18.0.1] /home/federico/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-base:18.0.1] /home/federico/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+125-->[com.google.android.gms:play-services-base:18.0.1] /home/federico/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+126
+127        <meta-data
+127-->[com.google.android.gms:play-services-basement:18.0.0] /home/federico/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+128            android:name="com.google.android.gms.version"
+128-->[com.google.android.gms:play-services-basement:18.0.0] /home/federico/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+129            android:value="@integer/google_play_services_version" />
+129-->[com.google.android.gms:play-services-basement:18.0.0] /home/federico/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+130
+131        <provider
+131-->[androidx.emoji2:emoji2:1.0.0] /home/federico/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+132            android:name="androidx.startup.InitializationProvider"
+132-->[androidx.emoji2:emoji2:1.0.0] /home/federico/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+133            android:authorities="com.example.tour_guidato.androidx-startup"
+133-->[androidx.emoji2:emoji2:1.0.0] /home/federico/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+134            android:exported="false" >
+134-->[androidx.emoji2:emoji2:1.0.0] /home/federico/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+135            <meta-data
+135-->[androidx.emoji2:emoji2:1.0.0] /home/federico/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+136                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+136-->[androidx.emoji2:emoji2:1.0.0] /home/federico/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+137                android:value="androidx.startup" />
+137-->[androidx.emoji2:emoji2:1.0.0] /home/federico/.gradle/caches/transforms-3/a8f15c438083418d3b3f80abdafb5523/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+138            <meta-data
+138-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/federico/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+139                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+139-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/federico/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+140                android:value="androidx.startup" />
+140-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/federico/.gradle/caches/transforms-3/f84ca6d456abb0b1140abea481061573/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+141        </provider>
+142
+143        <service
+143-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/federico/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+144            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+144-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/federico/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+145            android:exported="false" >
+145-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/federico/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+146            <meta-data
+146-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/federico/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+147                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+147-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/federico/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+148                android:value="cct" />
+148-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/federico/.gradle/caches/transforms-3/dc7c65a3010064290ad75bc9ded151e5/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+149        </service>
+150        <service
+150-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/federico/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+151            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+151-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/federico/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+152            android:exported="false"
+152-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/federico/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+153            android:permission="android.permission.BIND_JOB_SERVICE" >
+153-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/federico/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+154        </service>
+155
+156        <receiver
+156-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/federico/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+157            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+157-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/federico/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+158            android:exported="false" />
+158-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/federico/.gradle/caches/transforms-3/9f6b077e57e6a6558af0f12467efdf97/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+159    </application>
+160
+161</manifest>
